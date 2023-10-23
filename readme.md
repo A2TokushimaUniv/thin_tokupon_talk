@@ -14,3 +14,5 @@
    1. 途中でngrokのトークンの発行が必要
 2. 上記で発行されたURLを`chat_ui/src/index.js`の`API_HOME`に設定する
 3. ブラウザで`chat_ui/index.html`を開く
+
+<img width="400" height="400" src="example1.png"> <img width="400" height="400" src="example2.png">
