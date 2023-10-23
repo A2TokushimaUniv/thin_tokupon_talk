@@ -1,5 +1,5 @@
-const genAPI = (sendPrompt, callback, max_new_tokens = 64) => {
-    fetch(`https://${API_HOME}/gen?text=${sendPrompt}&max_new_tokens=${max_new_tokens}`, {
+const genAPI = (sendPrompt, callback) => {
+    fetch(`https://${API_HOME}/gen?text=${sendPrompt}`, {
         headers: {
             'ngrok-skip-browser-warning': 'true'
         },
